@@ -8,11 +8,11 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features = "src/test/java/feature/CadastroSeuBarriga.feature",
+		features = "src/test/java/feature/ContasSeuBarriga.feature",
 		glue = {""},
 		tags = "@All",
 		monochrome = true,
-		dryRun = false						
+		dryRun = false
 		)
 
 public class Runner {

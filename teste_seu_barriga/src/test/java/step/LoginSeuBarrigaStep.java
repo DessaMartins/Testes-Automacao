@@ -53,7 +53,5 @@ public class LoginSeuBarrigaStep {
 	public void sera_exibida_uma_mensagem_de_campo_obrigatorio() {
 	    telalogin.validarMsgErroEmail();
 	}
-	
-	
-	
+
 }

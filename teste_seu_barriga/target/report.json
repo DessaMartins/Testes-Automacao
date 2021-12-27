@@ -1,0 +1,315 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-16T14:46:05.928Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6447583400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.beforeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "validar tela de login do site",
+        "description": "",
+        "id": "validar-tela-login-no-site-seu-barriga;validar-tela-de-login-do-site",
+        "after": [
+          {
+            "result": {
+              "duration": 765046800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.afterCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1568513500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97772000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a tela de login e validada com sucesso",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.a_tela_de_login_e_validada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CT001"
+          },
+          {
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T14:46:14.900Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2807240100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.beforeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "validar login de usuario",
+        "description": "",
+        "id": "validar-tela-login-no-site-seu-barriga;validar-login-de-usuario",
+        "after": [
+          {
+            "result": {
+              "duration": 94355800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.afterCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 736797800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 848901800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuario entrar com seu email e senha preenchidos corretamente",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.o_usuario_entrar_com_seu_email_e_senha_preenchidos_corretamente()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43323400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "sera exibido a tela inicial do site",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.sera_exibido_a_tela_inicial_do_site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CT002"
+          },
+          {
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T14:46:19.453Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3028221300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.beforeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "validar erro ao logar com senha incorreta",
+        "description": "",
+        "id": "validar-tela-login-no-site-seu-barriga;validar-erro-ao-logar-com-senha-incorreta",
+        "after": [
+          {
+            "result": {
+              "duration": 103668200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.afterCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 845429300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 773140400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "o usuario entrar com uma senha incorreta",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.o_usuario_entrar_com_uma_senha_incorreta()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51934000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "sera exibida uma mensagem de erro de login",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.sera_exibida_uma_mensagem_de_erro_de_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CT003"
+          },
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Erro"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T14:46:24.264Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2757866500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.beforeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "validar erro ao logar sem preencher email",
+        "description": "",
+        "id": "validar-tela-login-no-site-seu-barriga;validar-erro-ao-logar-sem-preencher-email",
+        "after": [
+          {
+            "result": {
+              "duration": 90936800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setup.Configur.afterCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 846858100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 404973000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "o usuaria entrar sem preencher o email",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.o_usuaria_entrar_sem_preencher_o_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46533500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "sera exibida uma mensagem de campo obrigatorio",
+            "match": {
+              "location": "step.LoginSeuBarrigaStep.sera_exibida_uma_mensagem_de_campo_obrigatorio()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CT004"
+          },
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Erro"
+          }
+        ]
+      }
+    ],
+    "name": "Validar tela login no site Seu Barriga",
+    "description": "",
+    "id": "validar-tela-login-no-site-seu-barriga",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/LoginSeuBarriga.feature",
+    "tags": []
+  }
+]

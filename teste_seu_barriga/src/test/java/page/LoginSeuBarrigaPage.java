@@ -3,12 +3,12 @@ package page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import map.TelaLoginSeuBarrigaMap;
+import map.LoginSeuBarrigaMap;
 import setup.Configur;
 
-public class LoginSeuBarrigaPage extends TelaLoginSeuBarrigaMap {
+public class LoginSeuBarrigaPage extends LoginSeuBarrigaMap {
 	static WebDriver driver;
-	private String email = "joanafernandes@gmail.com";
+	private String email = "joanafernandes12345@gmail.com";
 	private String senha = "123456";
 	private String senhaincorreta = "12345";
 	
@@ -31,7 +31,7 @@ public class LoginSeuBarrigaPage extends TelaLoginSeuBarrigaMap {
 		btnEntrarLogin.click();
 	}
 	public void validarLogin() {
-		validarPgInicial.isDisplayed();
+		validarPgInicialId.isDisplayed();
 	}
 	public void entrarSenhaIncorreta() {
 		inputSenhaLogin.sendKeys(senhaincorreta);

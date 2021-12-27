@@ -19,7 +19,7 @@ Given 		que o usuario esteja na tela de cadastro do site
 When 			o usuario se cadastrar utilizando um email ja usado
 Then 			sera exibida a mensagem de erro de email ja utilizado
 
-@CT004  @Erro
+@CT004  @All @Erro
 Scenario: validar novo cadastro sem preencher senha
 Given 		que o usuario esteja na tela de cadastro do site
 When 			o usuario se cadastrar sem preencher o campo de senha

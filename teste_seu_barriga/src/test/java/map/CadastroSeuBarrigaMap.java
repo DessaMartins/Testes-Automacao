@@ -13,8 +13,8 @@ public class CadastroSeuBarrigaMap {
 	protected WebElement inputEmail;
 	@FindBy(xpath = "//input[@id='senha']")
 	protected WebElement inputSenha;
-	@FindBy(xpath = "//div[contains(text(),'Usuário inserido com sucesso')]")
+	@FindBy(xpath = "//div[@class='alert alert-success']")
 	protected WebElement iconUsuarioAdicionado;
-	@FindBy(xpath = "//div[contains(text(),'Endereço de email já utilizado')]")
+	@FindBy(xpath = "//div[@class='alert alert-danger']")
 	protected WebElement iconEmailIncorreto;
 }

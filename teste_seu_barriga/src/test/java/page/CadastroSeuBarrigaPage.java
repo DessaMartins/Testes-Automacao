@@ -6,15 +6,16 @@ import org.openqa.selenium.support.PageFactory;
 import map.CadastroSeuBarrigaMap;
 import setup.Configur;
 
-	public class CadastroSeuBarrigaPage extends CadastroSeuBarrigaMap {
+
+		public class CadastroSeuBarrigaPage extends CadastroSeuBarrigaMap {
 		static WebDriver driver;
 		
 		private String nome = "Joana";
-		private String email = "joanafernandes@gmail.com";
+		private String email = "joanafernandessilva12@gmail.com";
 		private String senha = "123456";
-		private String nomeIncorreto = "Joanna";
-		private String emailIncorreto = "joanafernandess@gmail.com";
-		private String senhaIncorreta = "12345";
+		//private String nomeIncorreto = "Joanna";
+		//private String emailIncorreto = "joanafernandess@gmail.com";
+		//private String senhaIncorreta = "12345";
 		
 		
 	public CadastroSeuBarrigaPage () {
@@ -50,13 +51,14 @@ import setup.Configur;
 	}
 	
 	public void cadastrarEmailUtilizado() {
-		inputNome.sendKeys(nomeIncorreto);
-		inputEmail.sendKeys(emailIncorreto);
-		inputSenha.sendKeys(senhaIncorreta);
+		inputNome.sendKeys(nome);
+		inputEmail.sendKeys(email);
+		inputSenha.sendKeys(senha);
 		btnCadastrar.click();
 	}
 	
 	public void validarMensagemDeErro() {
 		iconEmailIncorreto.isDisplayed();
 	}
+
 }
